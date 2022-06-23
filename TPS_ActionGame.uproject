@@ -3,6 +3,21 @@
 	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TPS_ActionGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "Load_Module",
+			"Type": "ClientOnly",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "BlockoutToolsPlugin",
