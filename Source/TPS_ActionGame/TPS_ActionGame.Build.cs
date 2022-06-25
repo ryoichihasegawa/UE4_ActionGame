@@ -12,7 +12,6 @@ public class TPS_ActionGame : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 		PrivateDependencyModuleNames.AddRange(new string[] { 
-				"Load_Module",
 				"UMG",
 				"HeadMountedDisplay",
 				"MoviePlayer",
